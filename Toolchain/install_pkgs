@@ -3,7 +3,7 @@
 # Install build essentials
 if [ `lsb_release -si` == "Ubuntu" ]
 then
-	sudo apt-get install build-essential
+	sudo apt-get install build-essential make bison flex
 else # Assuming CentOS
 	sudo yum install gcc make
 fi
